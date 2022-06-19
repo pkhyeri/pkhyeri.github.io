@@ -1,0 +1,27 @@
+body{padding:0;margin:0;}
+.hidden{display:none;}
+img{position:absolute;width:100%;height:100%;left:0px;top:0px;right:0px;bottom:0px;z-index:-1;opacity:80%;}
+
+#quotes{text-align:center;}
+#quotes span{display:block;margin:10px 0;}
+#clock{text-align:center;margin:200px 0 30px;font-size:150px;color:rgba(255, 255, 255, .5);}
+#weather{position:absolute;right:0;top:0;margin:20px;padding:10px 15px;border-radius:20px;background:rgba(255, 255, 255, .3)}
+#weather span{display:block;margin:10px 0;color:#333;}
+
+#login-form{width:400px;margin:0 auto;}
+#login-form input{width:300px;padding:8px 10px;border:0;border-radius:10px;background:rgba(255, 255, 255, .3);}
+#login-form input::placeholder{color:#333;}
+#login-form button{padding:8px 10px;border:0;border-radius:10px;background:#eee;}
+
+#greeting{width:400px;margin:0 auto;text-align:center;font-size:24px;color:#fff;}
+#greeting span{color:#fff79c;}
+
+#todo-form{width:400px;margin:20px auto 0;text-align:center;}
+#todo-form input{width:300px;padding:8px 10px;border:0;border-radius:10px;background:rgba(255, 255, 255, .3);}
+#todo-form input::placeholder{color:#333;}
+
+#todo-list{width:400px;margin:30px auto;text-align:center;}
+#todo-list li{text-align:left;list-style:none;margin:10px 0;color:#fff;}
+#todo-list li:before{display:inline-block;content:'🔸';vertical-align:middle;}
+#todo-list li span{margin-left:5px;vertical-align:middle}
+#todo-list li button{height:20px;border:0;border-radius:10px;margin-left:10px;vertical-align:middle;cursor:pointer;}
